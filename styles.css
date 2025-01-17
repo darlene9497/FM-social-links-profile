@@ -1,0 +1,79 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 97vh;
+    background: var(--Grey900);
+    font-family: "Inter", serif;
+}
+
+.card {
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    background-color: var(--Grey800);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: var(--White);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.location {
+    color: var(--Green);
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.description {
+    color: var(--White);
+    font-size: 0.82rem;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+a {
+    display: grid;
+    place-items: center;
+    color: var(--White);
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    background-color: var(--Grey700);
+    padding: 0.9rem;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: var(--Grey900);
+}
