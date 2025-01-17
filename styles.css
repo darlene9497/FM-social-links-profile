@@ -9,7 +9,7 @@
 body {
     display: grid;
     place-items: center;
-    height: 97vh;
+    height: 100vh;
     background: var(--Grey900);
     font-family: "Inter", serif;
 }
